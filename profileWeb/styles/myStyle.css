@@ -1,0 +1,319 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
+
+
+html body 
+{
+    font-family: 'Assistant', sans-serif;
+    direction:ltr;
+    height: 100%;
+    
+}
+
+
+/* define the background*/
+main { 
+    height: 100vh;
+    background-image: url(../images/sri.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    display:flex;
+    border: black solid 0.5px;
+    margin: 0 auto;
+
+
+}
+
+#container{
+width: 1420px;
+margin: 0 auto;
+
+}
+
+/* the data div */
+#context{
+
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.375)7D7D;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.375);
+    width: 355px;
+    height: 605px;
+    border: black solid 0.25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+/* define the manu */
+.nav {
+    overflow: hidden;
+    position: absolute;
+    width: 350px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+
+
+    }
+    /* the links inside the list */
+    .nav a {
+      display: block;
+      position: relative;
+      float: right;
+      padding: 0.5em 0 1.3em;
+      width: 25%;
+      text-decoration: none;
+      color: #393939;
+      transition: .7s;
+      opacity: 0.7; 
+      }
+
+      .nav a:hover {
+        opacity: 1; 
+      }
+
+
+ /* the underline effect */
+  .effect {
+    position: absolute;
+    right: -12.5%;
+    transition: 0.7s ease-in-out;
+
+ 
+  }
+  .nav a:nth-child(1):hover ~ .effect {
+    right: 12.5%; }
+  .nav a:nth-child(2):hover ~ .effect {
+    right: 37.5%; }
+  .nav a:nth-child(3):hover ~ .effect {
+    right: 62.5%; }
+  .nav a:nth-child(4):hover ~ .effect {
+    right: 87.5%; }
+  
+
+  .ph-line-nav .effect {
+    width: 80px;
+    height: 2px;
+    bottom: 26px;
+    background: black;
+    box-shadow: 0 .5px 0 rgb(94, 89, 89); 
+    margin-right:-40px;
+
+  }
+
+/* the manu bold */
+  #indexes .nav a:nth-child(4){
+
+    font-size: 1.6rem;
+    opacity: 1.1;
+    bottom: 5px;
+  }
+
+ #jobs .nav a:nth-child(3){
+
+    font-size: 1.6rem;
+    opacity: 1.1;
+    bottom: 5px;
+  }
+
+ #edus .nav a:nth-child(2){
+
+    font-size: 1.6rem;
+    opacity: 1.1;
+    bottom: 5px;
+  }
+
+ #hobs .nav a:nth-child(1){
+
+    font-size: 1.6rem;
+    opacity: 1.1;
+    bottom: 5px;
+  }
+
+
+
+
+
+#photo
+{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+	display:block;
+    background-image: url(../images/profile.png);
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    border: .5px solid rgb(49, 49, 49);
+    border-radius: 50%;
+    
+   
+}
+
+
+
+h1{
+    margin:10px;
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+
+
+
+h2{
+    margin-right:5px;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    bottom: -10px;
+
+
+}
+
+.appear{
+	bottom: 0px;
+  opacity: 1;
+  margin-bottom: 0px;
+  position: relative;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  font-size: 1.2rem;
+line-height: 25px;
+
+}
+
+
+.show {
+
+  font-size: 22px;
+	text-align: center;
+  opacity: 0;
+    bottom: 20px;
+    margin-bottom: -30px;
+    overflow: hidden;
+}
+
+
+.rotate{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: black;
+  } 
+
+
+
+li {
+    display: inline;
+}
+
+
+#social-icons {
+  margin-bottom: 15px;
+    list-style-type: none;
+    color: white;
+
+  }
+  #social-icons li {
+    
+    display: inline;
+  }
+  #social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .social-icon {
+      margin: 7px;
+
+  }
+  .fa-facebook {
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition: .4s;
+    color: gray;
+  }
+  .fa-facebook:hover {
+    color: #3d5b99;
+  }
+
+.fa-whatsapp{
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition: .4s;
+    color: gray;
+}
+
+.fa-whatsapp:hover{
+    color:rgb(21, 102, 45);
+}
+
+
+  .fa-instagram {
+ 
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition: .4s;
+    color: gray;
+  }
+  .fa-instagram:hover {
+    color: #8a3ab9;
+  }
+  .fa-linkedin {
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition: .4s;
+    color: gray;
+  }
+  .fa-linkedin:hover {
+    color: black;
+  }
+
+  .fa-chevron-down{
+
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition: .4s;
+    color: rgb(112, 112, 112);
+  }
+
+
+
+
+  footer{
+     text-align: center;
+     position: relative;
+     bottom: 80px;
+     color:gray;
+  }
+
+  footer span{
+
+    color:black;
+    opacity: .4;
+    
+ } 
+

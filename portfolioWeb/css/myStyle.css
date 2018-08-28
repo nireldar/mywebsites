@@ -255,19 +255,9 @@ margin-top: 150px;
 height: 300px;
 }
 
-/*#mac{
-  margin-top: 1720px;
-  margin-left: 752px;
-  height: 620px;
-  width:620px;
-  background-image: url("../images/mac2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -10;
-  position: absolute;
-}*/
 
- #mac{
+
+#mac{
   margin-top: -48px;
   margin-left: -70px;
   height: 620px;

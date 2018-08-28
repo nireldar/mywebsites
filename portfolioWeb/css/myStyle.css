@@ -255,7 +255,7 @@ margin-top: 150px;
 height: 300px;
 }
 
-#mac{
+/*#mac{
   margin-top: 1720px;
   margin-left: 752px;
   height: 620px;
@@ -265,9 +265,9 @@ height: 300px;
   background-repeat: no-repeat;
   z-index: -10;
   position: absolute;
-}
+}*/
 
-/* #mac{
+ #mac{
   margin-top: -48px;
   margin-left: -70px;
   height: 620px;
@@ -277,7 +277,7 @@ height: 300px;
   background-repeat: no-repeat;
   z-index: -10;
   position: absolute;
-} */
+} 
 
 /* #mac1{
   margin-top: -70px;

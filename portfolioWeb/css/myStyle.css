@@ -256,6 +256,18 @@ height: 300px;
 }
 
 #mac{
+  margin-top: 1720px;
+  margin-left: 652px;
+  height: 620px;
+  width:620px;
+  background-image: url("../images/mac2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -10;
+  position: absolute;
+}
+
+/* #mac{
   margin-top: -48px;
   margin-left: -70px;
   height: 620px;
@@ -265,7 +277,7 @@ height: 300px;
   background-repeat: no-repeat;
   z-index: -10;
   position: absolute;
-}
+} */
 
 #mac1{
   margin-top: -70px;

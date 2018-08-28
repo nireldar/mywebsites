@@ -13,11 +13,18 @@ body{
   width: 100vw;
 }
 
+@media screen and (max-width: 960px) {
+  #bg1{  width: 290vw;
+  } 
+  #bg2{  width: 290vw;
+  } 
+  #bg3{  width: 290vw;
+  } 
 
-
+}
 #bg1{
   margin-top: 80px;
-  width: 290vw;
+  width: 100vw;
   height: 600px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759);
@@ -26,7 +33,7 @@ body{
 
 #bg2{
   margin-top: 2150px;
-  width: 290vw;
+  width: 100vw;
   height: 620px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 
@@ -36,7 +43,7 @@ body{
 
 #bg3{
   margin-top: 3520px;
-  width: 290vw;
+  width: 100vw;
   height: 180px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 

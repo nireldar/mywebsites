@@ -17,7 +17,7 @@ body{
 
 #bg1{
   margin-top: 80px;
-  width: 400vw;
+  width: 290vw;
   height: 600px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759);
@@ -26,7 +26,7 @@ body{
 
 #bg2{
   margin-top: 2150px;
-  width: 300vw;
+  width: 280vw;
   height: 620px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 
@@ -36,7 +36,7 @@ body{
 
 #bg3{
   margin-top: 3520px;
-  width: 200vw;
+  width: 270vw;
   height: 180px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 

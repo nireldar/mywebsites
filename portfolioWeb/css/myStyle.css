@@ -13,15 +13,7 @@ body{
   width: 100vw;
 }
 
-@media screen and (max-width: 960px) {
-  #bg1{  width: 290vw;
-  } 
-  #bg2{  width: 290vw;
-  } 
-  #bg3{  width: 290vw;
-  } 
 
-}
 #bg1{
   margin-top: 80px;
   width: 100vw;
@@ -745,4 +737,42 @@ transform: translateY(-5px);
 #credit{
   margin-top: 15px;
   opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+  body #mac {
+    height: 530px;
+    width: 530px;
+    margin-left: -45px;
+    margin-top: -0px
+  }
+
+  body .carousela{
+    margin-top: 32px;
+    margin-left: 10px;
+    height: 270px;
+    width: 410px;
+
+  }
+
+
+  body #section1,#section3,footer{  
+    width: 101%;
+    background: linear-gradient(to right, #bc4e9c, #f80759);  } 
+
+#credit{
+  display: none;
+}
+body #logo{
+display: none;}
+
+  #bg1{ display: none;
+  } 
+  #bg2{ display: none;
+  } 
+  #bg3{ display: none;
+  } 
+
 }

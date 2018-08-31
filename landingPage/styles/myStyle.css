@@ -14,6 +14,10 @@ margin-left: -15px;
 
     }
 
+    body #cover{
+        display: block;
+    }
+
     body #head{
         background-color: white;
         padding: 10px;

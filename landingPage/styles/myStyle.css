@@ -1,26 +1,49 @@
 
 @import url('https://fonts.googleapis.com/css?family=Assistant');
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 900px) {
    body #logo{  
        display: none;
     }
 
-    body #formWraper{
-width: 250px;
-height: 110%;
-font-size: 20px;
-margin-left: -15px;
+    #Send
+    {
+        margin-right: 11%;
+        width: 78%;
+    }
+    body #mySelect{
+        width: 97%;
+    }
+body #lastDiv p{
+    width: 80%;
+}
 
+
+    #formh1{
+        padding-right: 10%;
     }
 
+    body #formWraper{
+width: 100%;
+height: 91.5%;
+font-size: 15px;
+margin: auto 0;
+background-color: rgba(0, 0, 0, 0.7);
+    }
+    body form{
+        padding-right: 10%;
+    }
+
+
+
     body #cover{
-        display: block;
+margin-top: 0px;
+background-position-x: 50%;
+
     }
 
     body #head{
         background-color: white;
-        padding: 10px;
         -webkit-box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.375)7D7D;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
        }
@@ -40,18 +63,21 @@ html body
    }
 
 
+
    #head{
+       width: 100vw;
+       height: 105%;
     background-color: white;
-    padding: 15px;
     text-align: center;
     -webkit-box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.375)7D7D;
     box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.375);
    }
 
 #logo{  
-width: 170px;
-height: 170px;
+width: 160px;
+height: 160px;
 border: black 1px solid;
+margin-top: 40px;
 position: absolute;
 background-color: white;
 margin-right: 20px;
@@ -150,15 +176,7 @@ input[type ='submit']
 
 input[type ='submit']:hover
 {
-    padding: 0 60px;
-    height: 40px;
-    border: none;
-    width: 80%;
-    font-size: 26px;
-    font-weight: 200;
-    text-align: center;
-    margin-right: 35px;
-    margin-top: 30px;
+   
     border: 1px solid rgb(199, 190, 190);
     opacity: 0.7;
 } 
@@ -180,6 +198,16 @@ h2{
     margin-top: 10px;
 }
 
+h3{
+    color:rgba(0, 0, 0, 0.619);
+    font-size: 1.5rem;
+    display: block;
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 
 #formh1{
 font-size: 2.7rem;

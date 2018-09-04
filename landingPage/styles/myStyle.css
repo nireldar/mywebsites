@@ -20,7 +20,7 @@ body #lastDiv p{
 
 
     #formh1{
-        padding-right: 10%;
+        padding-right: 7%;
     }
 
     body #formWraper{
@@ -31,7 +31,7 @@ margin: auto 0;
 background-color: rgba(0, 0, 0, 0.7);
     }
     body form{
-        padding-right: 10%;
+        padding-right: 7%;
     }
 
 
@@ -43,6 +43,7 @@ background-position-x: 50%;
     }
 
     body #head{
+        padding-right: -15%;
         background-color: white;
         -webkit-box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.375)7D7D;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -53,6 +54,8 @@ html body
 {
     font-family: 'Assistant', sans-serif;
     direction:rtl;
+    overflow-x: hidden;
+
  
 }
 

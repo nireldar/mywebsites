@@ -18,6 +18,10 @@ body #lastDiv p{
     width: 80%;
 }
 
+body #lastDiv{
+    margin-top: 50px;
+}
+
 
     #formh1{
         padding-right: 7%;

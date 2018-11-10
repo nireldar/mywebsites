@@ -23,10 +23,27 @@ body{
   z-index: -10;  
 }
 
-#bg2{
-  margin-top: 2150px;
+
+#bg4{
+  margin-top: 1700px;
   width: 100vw;
-  height: 620px;
+  height: 750px;
+  position: absolute;
+  background: linear-gradient(to right, #bc4e9c, #f80759); 
+  z-index: -10; 
+}
+
+#empty2{
+  height: 150px;
+}
+#empty3{
+  height: 10px;
+}
+
+#bg2{
+  margin-top: 3068px;
+  width: 100vw;
+  height: 700px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 
   z-index: -10; 
@@ -34,13 +51,91 @@ body{
 }
 
 #bg3{
-  margin-top: 3520px;
+  margin-top: 4510px;
   width: 100vw;
-  height: 180px;
+  height: 200px;
   position: absolute;
   background: linear-gradient(to right, #bc4e9c, #f80759); 
   z-index: -10; 
 }
+
+
+#rowApp{
+  width: 100vw;
+  height: 600px;
+  vertical-align: middle;
+  margin-bottom: 200px;
+}
+#rowApp #melelApp{
+  color:white;
+text-align: center;
+margin-left: 250px;
+}
+#rowApp #melelApp .divider{
+background-color: white;
+margin:0 auto;
+margin-top: -10px;
+display: block;
+}
+
+#rowApp p{
+  text-align: center;
+  font-size: 20px;
+  height: 300px;
+  width: 350px;
+  color: white;
+  margin: 0 auto;
+
+}
+
+#appLogo{
+  height: 150px;
+  width: 300px;
+  margin: 0 auto;
+  background-image: url("../images/logoApp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+#divider3{
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#phone1,#phone2,#phone3,#phone4{
+  margin-top: -48px;
+  margin-left: -70px;
+  height: 620px;
+  width:620px;
+  background-image: url("../images/mac2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -10;
+  position: absolute;
+}
+
+
+#phone1{  background-image: url("../images/phone2.png");
+  margin-left: -360px; margin-top: -650px;   z-index: -9;
+}
+
+#phone2{  background-image: url("../images/phone3.png");
+  margin-left: 400px; margin-top: -510px; z-index: -9;
+}
+#phone3{  background-image: url("../images/phone1.png");
+  margin-left: -500px; margin-top: -650px;
+
+}
+/* #phone4{  background-image: url("../images/phone3.png");
+  margin-left: 540px; margin-top: -600px;
+
+} */
+
 header{
  height: 0px;
 }
@@ -146,22 +241,14 @@ bottom: -20px;
 #logo{
   height: 45px;
   width: 45px;
-  margin-left: 49%;
+margin: 0 auto;
   background-image: url("../images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 20px;
-  position: absolute;
 
 }
 
-#back{
-  width: 1440px;
-  height: 600px;
-  background: linear-gradient(to right, #bc4e9c, #f80759); 
-  position: absolute;
-  margin-left: -17%;
-}
 
 p{
   font-size: 1.2rem;
@@ -221,8 +308,9 @@ h3{
 }
 #section2{
 padding-top: 25px;
-height: 1450px;
+height: 2200px;
 width: 100%;
+margin-bottom: 100px;
 }
 
 #section2 .melel:nth-child(1){
@@ -312,7 +400,7 @@ height: 300px;
 }
 
 #melel2{
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 #logo-1{
@@ -327,11 +415,11 @@ height: 300px;
 #logo-2{
   background-image: url("../images/logo-2.png");
   height: 230px;
-  width: 230px;
+  width: 400px;
   margin-left: 30%;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 25%;
+  margin-left: 11%;
 
 }
 #logo-3{
@@ -378,12 +466,11 @@ height: 300px;
 margin-bottom: 10px;
   height: 420px;
   width: 300px;
-  margin:auto 0;
+padding: 5px;
   border: 1px soild black;
   border-radius: 15px;
   transition: 0.2s all ease;
   transition-delay: 0.08s;
-  object-fit: cover;
 	transition: transform 400ms ease-out;
   -webkit-box-shadow: 5px 7px 20px -7px #000000;
   box-shadow: 5px 7px 20px -7px #000000;
@@ -681,8 +768,6 @@ input[type ='submit']:hover{
 -ms-transform: translateY(-5px);
 transform: translateY(-5px);
 
-
-
 }
 
 
@@ -742,25 +827,31 @@ transform: translateY(-5px);
 
 @media only screen and (max-width: 750px) {
 
+
   body #mac {
     height: 530px;
     width: 530px;
     margin-left: -45px;
-    margin-top: -0px
+    margin-top: 85px
   }
 
   body .carousela{
-    margin-top: 32px;
+    margin-top: 117px;
     margin-left: 10px;
     height: 270px;
     width: 410px;
 
   }
+  body #rowApp{
+    width: 104%;
 
+  }
 
-  body #section1,#section3,footer{  
-    width: 101%;
-    background: linear-gradient(to right, #bc4e9c, #f80759);  } 
+  body #section1,#section3,footer,#rowApp{  
+    width: 102%;
+    background: linear-gradient(to right, #bc4e9c, #f80759); 
+  }
+
 
 #credit{
   display: none;
@@ -774,5 +865,23 @@ display: none;}
   } 
   #bg3{ display: none;
   } 
+  #bg4{ display: none;
+  }
+
+  #phone1,#phone2,#phone3{
+    height: 400px;
+    width:400px;
+  }
+
+  #phone1{  background-image: url("../images/phone2.png");
+    margin-left: -200px; margin-top: -600px;  z-index: 999;
+  }
+  
+  #phone2{  background-image: url("../images/phone3.png");
+    margin-left: 350px; margin-top: -510px; z-index:999;
+  }
+  #phone3{  background-image: url("../images/phone1.png");
+    margin-left: -280px; margin-top: -600px; z-index: 998;
+  }
 
 }
